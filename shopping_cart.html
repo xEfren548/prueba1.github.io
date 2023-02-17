@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Shopping cart</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">DASW</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <input class="form-control mr-sm-2" id="buscador" type="text"
+                    placeholder="Encuentra de todo empieza a buscar">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0 mr-4">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Mi Cuenta</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#loginModal">Ingresar</a>
+                            <a class="dropdown-item" href="#" data-toggle="modal"
+                                data-target="#modalUsuarios">Registro</a>
+                            <hr>
+                            <a class="dropdown-item" href="#">Mis pedidos</a>
+                        </div>
+                    </li>
+                </ul>
+                <a href="shopping_cart.html"><i class="fa fa-shopping-cart ml-3" aria-hidden="true" style="color:gray"></i></a>
+                <span class="badge badge-noborder" style="background-color: transparent; border: none; color: white;">2</span>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Cierre navbar -->
+
+    <h3>Resumen de compra</h3>
+
+
+    <div class="row">
+
+        <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8" style="padding-right: 0;">
+<!--Media object -->
+            <div class="media media-first">
+                <div class="media-body">
+                    <h4 class="mt-0">Miel de maple <span class="badge badge-danger"><a href="#"><i class="fa fa-trash" aria-hidden="true" style="color: white;"></i></a> </span></h4>
+                    <div class="input-group ig-shopping-cantidad mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">Cantidad: </span>
+                        </div>
+                        <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" min="1" step="any">
+                        <div class="input-group-append">
+                          <a href=""></a>
+                          <span class="input-group-text pencil"><a href="#"><i class="fa fa-pencil" aria-hidden="true" style="color: white;"></i></a></span>
+                        </div>
+                    </div>
+
+                    <div class="input-group ig-shopping-price mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">Precio: </span>
+                        </div>
+                        <input type="text" class="form-control" id="center-input" aria-label="Amount (to the nearest dollar)">
+                        <div class="input-group-append">
+                          <span class="input-group-text">$ M.N.</span>
+                        </div>
+                      </div>
+                </div>
+                
+                <img src="https://cdn.pixabay.com/photo/2015/02/09/19/56/pancake-630109_960_720.jpg" class="img-fluid mr-3" alt="...">
+
+            </div>
+
+            <div class="media">
+                <div class="media-body">
+                    <h4 class="mt-0">Plátanos<span class="badge badge-danger"><a href="#"><i class="fa fa-trash" aria-hidden="true" style="color: white;"></i></a></span></h4>
+                    <div class="input-group ig-shopping-cantidad mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">Cantidad: </span>
+                        </div>
+                        <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" min="1" step="any">
+                        <div class="input-group-append" >
+                          <span class="input-group-text pencil"><a href="#"><i class="fa fa-pencil" aria-hidden="true" style="color: white;"></i></a></span>
+                        </div>
+                    </div>
+
+                    <div class="input-group ig-shopping-price mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">Precio: </span>
+                        </div>
+                        <input type="text" class="form-control" id="center-input" aria-label="Amount (to the nearest dollar)">
+                        <div class="input-group-append">
+                          <span class="input-group-text">$ M.N.</span>
+                        </div>
+                      </div>
+                </div>
+                
+                <img src="https://cdn.pixabay.com/photo/2016/01/03/17/59/bananas-1119790_960_720.jpg" class="img-fluid mr-3" alt="...">
+
+            </div>
+
+        
+        </div> <!--Cierre col 1-->
+
+<!--Fin Media Object-->
+
+<!-- Card -->
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center align-items-start direction-column " style="padding-right: 0px; padding-left: 32px;" >
+                    <div class="card card-order-summary">
+                        <div class="card-header">
+                          <h4>Total de compra</h4>
+                        </div>
+                        <div class="card-body cb-order-summary">
+                          <h5 class="card-title"></h5>
+                          <p class="card-text">Miel de maple: 1 x 10.00</p>
+                          <p class="card-text">Plátanos: 3 x 9.99</p>
+                          <p class="card-text">Costo de envío: 30.00</p>
+                        </div>
+                        <div class="card-footer">
+                            <p>Monto a pagar: 69.97</p>
+                            <a name="" id="" class="btn btn-outline-success btn-block btn-pay" href="orders.html" role="button">Pagar</a>
+                            <a name="" id="" class="btn btn-outline-danger btn-cancelar" href="index.html" role="button">Cancelar</a>
+                        </div>
+                      </div>
+        </div> <!--Cierre col 2-->
+<!-- Fin Card -->
+
+
+    </div>
+    <!--Cierre row 1-->
+
+<!-- Modals -->
+
+    <!-- Modal login -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Ingresar</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-modal" action="">
+                        <div class="form-group">
+                            <label for="">Correo</label>
+                            <div class="input-group-prepend">
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                    placeholder="Ingresa tu correo" required>
+                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"
+                                        aria-hidden="true"></i></span>
+                                        
+                            </div>
+                        </div>
+                        <!--Cierre form group correo-->
+
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <div class="input-group-prepend">
+                                <input type="password" class="form-control" name="password" id="password"
+                                    aria-describedby="helpId" placeholder="Ingresa tu contraseña" required>
+                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-key"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                        <!--Cierre form group password-->
+
+                        <button type="submit" name="" id="" class="btn btn-success login-btn" btn-lg btn-block ">Login</button>
+                    </form>
+
+                </div> <!--Cierre modal body-->
+                <div class=" modal-footer">
+                            <p>No tienes cuenta? <a href="" data-toggle="modal" data-target="#modalUsuarios" data-dismiss="modal">Regístrate Aquí</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Cierre modal login-->
+
+
+
+    <!-- Modal registro usuarios -->
+
+    <div class="modal fade" id="modalUsuarios" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Registrar usuario</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div> <!--Cierre modal header-->
+
+
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-6">
+                                    <input type="text" class="form-control form-usuarios" name="" id="names" aria-describedby="helpId" placeholder="Nombre(s)" required pattern="^[^\d\n]+$"">
+                                </div> <!--Cierre col 1-->
+    
+                                <div class="col-6">
+                                    <input type="text" class="form-control form-usuarios" name="" id="apellidos" aria-describedby="helpId" placeholder="Apellidos">
+                                </div> <!--Cierre col 2-->
+                            </div> <!--Cierre row 1-->
+
+                            <input type="email" class="form-control form-usuarios" name="email" id="email"aria-describedby="emailHelpId" placeholder="Tu correo">
+                            <input type="password" class="form-control form-usuarios" name="password" id="password" aria-describedby="emailHelpId" placeholder="Contraseña" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{6,}">
+                            <input type="password" class="form-control form-usuarios" name="verify-password" id="verify-password" aria-describedby="emailHelpId" placeholder="Confirmar contraseña">
+
+                            <button type="submit" name="register-btn id="register-btn" href="modalUsuarios" class="btn btn-success register-btn" btn-lg btn-block ">Registrarse</button>
+
+
+                        </form>
+
+
+                    </div> <!--Cierre container fluid-->
+                </div> <!--Cierre modal body-->
+
+
+            </div> <!--Cierre modal-content -->
+        </div> <!-- Cierre modal-dialog -->    
+    </div> <!--Cierre modal completo-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

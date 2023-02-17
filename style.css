@@ -1,0 +1,270 @@
+body{
+    font-family: 'Overpass', sans-serif;
+}
+
+/* #buscar-nav{
+    width: 20rem;
+} */
+/* 
+.nav-micuenta{
+    margin-left: 27rem;
+}  */
+
+/* .badge{
+    width: 2rem !important;
+    height: 3rem !important;
+} */
+
+#carouselId img{
+    width: 100%;
+    height: 20rem;
+}
+
+
+#buscador {
+    width: 30rem;
+}
+
+.card img{
+    width: 100%;
+    height: 10rem;
+}
+
+.card{
+    margin-top: 2rem !important;
+    height: 90%;
+}
+
+.login-btn{
+    width: 93%;
+    margin-left: 2rem;
+    margin-top: 1.3rem;
+}
+
+.register-btn{
+    width: 90%;
+    margin: 3rem 0 1.3rem 1.3rem;
+}
+
+.badge-noborder{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.form-modal{
+    width: 85%;
+    margin-left: 1.2rem;
+}
+
+.modal-header{
+    padding-bottom:8px;
+}
+
+.modal-footer{
+    padding-bottom: 5px;
+}
+
+
+.form-usuarios{
+    margin-bottom: 1rem;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 1rem 1.5rem;
+    font-size: 2rem;
+}
+
+.media{
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 20px 20px 5px 20px;
+    margin-left: 1rem;
+    margin-right: 2rem !important;
+    float: right;;
+    width: 90%;
+
+}
+
+.media-first{
+    margin-top: 1rem;
+}
+
+.media img{
+    width: 30%;
+    height:30%;
+}
+
+.card-shopping{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center !important;
+    margin: 1rem !important;
+    width: 90%;
+    height: auto;
+}
+
+.card-order-summary{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center !important;
+    margin: 1rem !important;
+    width: 70%;
+    height: auto;
+}
+
+
+
+.card-header, .card-footer{
+    background-color: white;
+    width: 100%;
+
+}
+
+.card-footer p{
+    margin-top: 0.5rem;
+}
+
+.card-body{
+    padding-top: 0.3rem;
+    padding-bottom: 0.5rem;
+}
+
+.card-header{
+    display: flex;
+    padding-left: 0;
+    padding-bottom: 0;
+
+}
+
+.card-header h4{
+    margin-left: 1.5rem !important;
+    padding-left: 0 !important;
+    margin-bottom: 0.5rem !important;
+    border: none !important;
+    padding: 0.5rem 0 0.5rem 0;
+
+}
+
+.media h4{
+    font-size: 25px;
+    padding-left: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+.pencil{
+    background-color: #15a4b4;
+}
+
+.ig-shopping-cantidad{
+    width: 50%;
+}
+
+.ig-shopping-price{
+    width: 45%;
+}
+
+#center-input{
+    text-align: center;
+}
+
+.badge-danger{
+    margin-left: 0.5rem;
+}
+
+.btn-pay{
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    border: 2px solid #28a745;
+}
+
+.btn-cancelar{
+    display: flex;
+    width: 100%;
+    height: 1.8rem !important;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+}
+
+.h4-orders{
+    float: left;
+    margin-top: 3rem;
+    margin-left: 3.4rem;
+    margin-bottom: 3rem;
+}
+
+.text-review-order{
+    margin-top: 2rem;
+}
+
+.media-order{
+    justify-content: space-between !important;
+    align-items: center;
+}
+
+.media-review{
+    width: 70%;
+}
+
+.media-columns p{
+    line-height:120%;
+}
+
+#btn-ordenar{
+    margin: 1rem 1rem 0.5rem 1rem;
+    width: 90%;
+}
+
+#btn-regresar{
+    margin: 0rem 1rem 1rem 1rem;
+    width: 90%;
+}
+
+
+
+.cb-order, .cb-order-summary{
+    width: 100%;
+}
+
+/* #col-order-1{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+*/
+#col-order-2{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.separadores{
+    border: 1px solid gray;
+    width: 93%;
+    height: 0px;
+    background-color: gray;
+    opacity: 0.5;
+    margin: 1;
+
+}
+
+.total{
+    font-size: 2em;
+}
+
+.card-collapse{
+    padding-bottom: 2rem;
+}
